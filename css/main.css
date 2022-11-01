@@ -485,10 +485,12 @@ main{
     background-color: #cccccc;
     transform: rotateY(-180deg); 
     backface-visibility: hidden;
+    opacity: 0;
     transition: 1s;
 }
 .find_store .inner .medal:hover .back{
     transform: rotateY(0deg);
+    opacity: 1;
 }
 .find_store .inner .back h3{
     position: absolute;
