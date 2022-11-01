@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     familyEl.addEventListener('click',function(){
         if(familySubEl.hasAttribute('class')==false){
-            familySubEl.setAttribute('class','show')
+            familySubEl.setAttribute('class','show2')
         }else{
             familySubEl.removeAttribute('class')
         }
